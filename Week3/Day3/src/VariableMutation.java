@@ -50,5 +50,7 @@ public class VariableMutation {
 
         int j = 1521;
         // tell if j is dividable by 3 or 5 (print as a boolean)
+        boolean jquit = j % 3 == 0 && j % 5 == 0;
+        System.out.println("j is dividable by 3 or 5? " + jquit );
     }
 }
