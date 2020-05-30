@@ -9,6 +9,6 @@ public class MileToKmConverter {
         double miles = sc.nextDouble();
         double km = miles * 1.6;
         System.out.println("Your speed is by km = " + km + " km/h.");
-        
+
     }
 }
